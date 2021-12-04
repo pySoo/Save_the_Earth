@@ -1,0 +1,139 @@
+body {
+  background-color: rgba(211, 211, 211, 0.849);
+  height: 100vh;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.game {
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  height: 780px;
+  background: url(img/background.png) center/ cover;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.game__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.game__button {
+  width: 70px;
+  height: 70px;
+  background: rgba(148, 178, 233, 1);
+  border: 4px solid black;
+  font-size: 24px;
+}
+
+.game__button:hover {
+  transform: scale(1.1);
+}
+
+.game__timer {
+  width: 150px;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 36px;
+  margin-top: 8px;
+  padding: 5px;
+  visibility: hidden;
+}
+
+.game__score {
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 46px;
+  background: rgb(152, 231, 161);
+  background: linear-gradient(
+    90deg,
+    rgba(148, 178, 233, 1) 26%,
+    rgba(152, 231, 161, 1) 77%
+  );
+  border-radius: 50%;
+  color: white;
+  visibility: hidden;
+}
+
+.game__field {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+}
+
+.pop-up {
+  width: 420px;
+  height: 150px;
+  padding: 25px;
+  background-color: #00000090;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  transform: translateY(-180%);
+}
+
+.pop-up--hide {
+  display: none;
+}
+
+.pop-up__refresh {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  background: rgb(152, 231, 161);
+  border-radius: 50%;
+}
+
+.pop-up__refresh:hover {
+  transform: scale(1.2);
+}
+
+.pop-up__replay {
+  display: block;
+  font-size: 36px;
+  margin: 8px 0;
+}
+
+.pop-up__info {
+  display: block;
+  font-size: 24px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 420px;
+  height: 150px;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  transform: translateY(-250%);
+}
+
+.info__title {
+  font-size: 24px;
+}
+
+.info__message {
+  margin-top: 10px;
+  font-size: 18px;
+}

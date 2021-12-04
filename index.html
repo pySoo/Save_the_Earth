@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <script
+        src="https://kit.fontawesome.com/9dfc726774.js"
+        crossorigin="anonymous"    
+    ></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="src/main.js" defer></script>
+</head>
+<body>
+    <section class="game">
+        <header class="game__header">
+            <button class="game__button">
+                <i class="fas fa-play"></i>
+            </button>
+            <span class="game__timer">0:00</span>
+            <button class="game__score">9</button>
+        </header>
+        <section class="game__field">
+        </section>
+    </section>
+    <section class="pop-up pop-up--hide">
+        <button class="pop-up__refresh">
+            <i class="fas fa-redo-alt"></i>
+        </button>
+        <span class="pop-up__replay">Replay?</span>
+        <span class="pop-up__info"></span>
+    </section>
+    <section class="info">
+        <span class="info__title">쓰레기로 뒤덮힌 지구🌍를 구합시다!</span>
+        <section class="info__message">
+            <p>주어진 시간 동안 쓰레기 더미 중</p>
+            <span style="color:red;"> 5개의 재활용 쓰레기 </span>
+            <span>를 클릭해서 분류하세요.</span> 
+        </section>
+    </section>
+</body>
+</html>
