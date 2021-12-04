@@ -60,7 +60,7 @@ export class Field {
       item.setAttribute("class", className);
       item.setAttribute("src", imgPath[0]);
       item.setAttribute("title", imgPath[1]);
-      item.setAttribute("width", "100px");
+      item.setAttribute("width", "90px");
       item.style.position = "absolute";
       if (i % 2) {
         item.style.webkitTransform = "rotate(4deg)";
