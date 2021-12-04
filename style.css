@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: rgba(211, 211, 211, 0.849);
+  width: 100%;
   height: 100vh;
 }
 button {
@@ -10,8 +14,8 @@ button {
 .game {
   display: flex;
   flex-direction: column;
-  width: 1400px;
-  height: 780px;
+  width: 80%;
+  height: 90%;
   background: url(img/background.png) center/ cover;
   margin: auto;
   border-radius: 20px;
@@ -26,8 +30,8 @@ button {
 }
 
 .game__button {
-  width: 70px;
-  height: 70px;
+  width: 3rem;
+  height: 3rem;
   background: rgba(148, 178, 233, 1);
   border: 4px solid black;
   font-size: 24px;
@@ -38,25 +42,25 @@ button {
 }
 
 .game__timer {
-  width: 150px;
+  width: 10rem;
   background-color: white;
   text-align: center;
   font-weight: bold;
   border-radius: 5px;
-  font-size: 36px;
+  font-size: 2rem;
   margin-top: 8px;
-  padding: 5px;
+  padding: 0.2rem;
   visibility: hidden;
 }
 
 .game__score {
   text-align: center;
-  width: 70px;
-  height: 70px;
+  width: 3rem;
+  height: 3rem;
   padding-bottom: 5px;
-  margin-top: 10px;
-  padding-top: 10px;
-  font-size: 46px;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  font-size: 2rem;
   background: rgb(152, 231, 161);
   background: linear-gradient(
     90deg,
@@ -76,15 +80,15 @@ button {
 }
 
 .pop-up {
-  width: 420px;
-  height: 150px;
+  width: 30rem;
+  height: 12rem;
   padding: 25px;
   background-color: #00000090;
   border-radius: 20px;
   color: white;
   text-align: center;
   margin: auto;
-  transform: translateY(-180%);
+  transform: translateY(-140%);
 }
 
 .pop-up--hide {
@@ -92,11 +96,11 @@ button {
 }
 
 .pop-up__refresh {
-  width: 60px;
-  height: 60px;
-  font-size: 24px;
+  width: 3.5rem;
+  height: 3.5rem;
   background: rgb(152, 231, 161);
   border-radius: 50%;
+  font-size: 2rem;
 }
 
 .pop-up__refresh:hover {
@@ -105,35 +109,35 @@ button {
 
 .pop-up__replay {
   display: block;
-  font-size: 36px;
+  font-size: 2rem;
   margin: 8px 0;
 }
 
 .pop-up__info {
   display: block;
-  font-size: 24px;
+  font-size: 1.2rem;
 }
 
 .info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 420px;
-  height: 150px;
+  width: 30rem;
+  height: 12rem;
   padding: 25px;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 20px;
   color: white;
   text-align: center;
   margin: auto;
-  transform: translateY(-250%);
+  transform: translateY(-200%);
 }
 
 .info__title {
-  font-size: 24px;
+  font-size: 1.6rem;
 }
 
 .info__message {
-  margin-top: 10px;
-  font-size: 18px;
+  margin-top: 0.8rem;
+  font-size: 1.2rem;
 }

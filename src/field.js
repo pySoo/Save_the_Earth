@@ -1,7 +1,7 @@
 "use strict";
 import * as sound from "./sound.js";
 
-const RECYCLING_SIZE = 220;
+const RECYCLING_SIZE = 200;
 export const ItemType = Object.freeze({
   recycling: "recycling",
   trash: "trash",
@@ -23,12 +23,13 @@ export class Field {
       ["img/plastic_bottle.png", "플라스틱 병"],
       ["img/milk.png", "우유곽"],
       ["img/brushbox.png", "쓰레받기"],
+      ["img/newspaper.png", "신문"],
     ];
     const trashPath = [
       ["img/egg.png", "계란 껍질"],
       ["img/lighter.png", "라이터"],
       ["img/pen.png", "펜"],
-      ["img/straw.png", "빨대"],
+      ["img/ramen.png", "라면 용기"],
       ["img/teeth.png", "틀니"],
       ["img/toothbrush.png", "칫솔"],
       ["img/toothpaste.png", "치약"],
@@ -59,8 +60,7 @@ export class Field {
       item.setAttribute("class", className);
       item.setAttribute("src", imgPath[0]);
       item.setAttribute("title", imgPath[1]);
-      item.setAttribute("width", "120px");
-      item.setAttribute("margin", "100px");
+      item.setAttribute("width", "100px");
       item.style.position = "absolute";
       if (i % 2) {
         item.style.webkitTransform = "rotate(4deg)";
