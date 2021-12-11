@@ -4,9 +4,9 @@
 환경 문제가 심각해지는 가운데, 많은 사람들이 헷갈리는 분리배출 문제를 해결하고자 제작하였습니다. <br />
 재활용 쓰레기를 시간 내에 분류하며 차이를 학습하는 게임입니다.
 ## 내용
-- 사용 기술: HTML, CSS, Javacript, Netlify(배포)
+- 사용 기술: HTML, CSS, Javascript, Netlify(배포)
 - 배포 url: https://save-the-earth-game.netlify.app/
-- 본 프로젝트는 HTML, CSS, Javacript 학습을 위해 제작되었습니다.
+- 본 프로젝트는 HTML, CSS, Javascript 학습을 위해 제작되었습니다.
 
 <img width="774" alt="지구_메인" src="https://user-images.githubusercontent.com/55135881/144710515-3cc5c4a5-98c8-41d5-ac72-71f6be67ad1f.PNG">
 
